@@ -102,7 +102,7 @@ export default {
 
           .setColor("Blue")
 
-          .setAuthor({ name: "👥 VORTEX DEPLOY — Users List" })
+          .setAuthor({ name: "👥 UltraNode DEPLOY — Users List" })
 
           .addFields(
 
@@ -136,7 +136,7 @@ export default {
 
           })
 
-          .setFooter({ text: "Made By Okami | Vortex Deploy 👑" })
+          .setFooter({ text: "Made By CalmLegendMC | UltraNode Deploy 👑" })
 
           .setTimestamp();
 
@@ -154,7 +154,7 @@ export default {
 
               .setDescription(`❌ Error: ${err.message}`)
 
-              .setFooter({ text: "Made By Okami | Vortex Deploy 👑" })
+              .setFooter({ text: "Made By CalmLegendMC | UltraNode Deploy 👑" })
 
           ]
 
