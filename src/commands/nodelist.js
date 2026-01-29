@@ -1,8 +1,8 @@
 // ======================================================
 
-// 🧩 VORTEX DEPLOY - /nodeslist Command (WORLD BEST EMBED)
+// 🧩 UltraNode DEPLOY - /nodeslist Command (WORLD BEST EMBED)
 
-// ⚡ Made by Okami | Asia/Kolkata
+// ⚡ Made by CalmLegendMC | Asia/Yerevan
 
 // ======================================================
 
@@ -40,7 +40,7 @@ export default {
 
           .setDescription("⚠️ No nodes found or panel offline.")
 
-          .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+          .setFooter({ text: "⚡ Made by CalmLegendMC| UltraNode Deploy 👑" })
 
           .setTimestamp();
 
@@ -78,7 +78,7 @@ export default {
 
         .setColor("Blue")
 
-        .setTitle("🧩 VORTEX DEPLOY - Nodes List")
+        .setTitle("🧩 UltraNode DEPLOY - Nodes List")
 
         .setDescription("💫 Live node status (refreshes every 10s) 🔄")
 
@@ -90,7 +90,7 @@ export default {
 
         )
 
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
 
         .setTimestamp();
 
