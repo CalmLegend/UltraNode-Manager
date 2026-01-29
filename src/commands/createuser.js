@@ -1,8 +1,8 @@
 // ======================================================
 
-// ➕ VORTEX DEPLOY - /createuser Command (WORLD BEST)
+// ➕ UltraNode DEPLOY - /createuser Command (WORLD BEST)
 
-// ⚡ Made by Okami | Vortex Deploy 👑
+// ⚡ Made by CalmLegendMC | UltraNode Deploy 👑
 
 // ======================================================
 
@@ -172,7 +172,7 @@ export default {
 
         .setTitle("✅ User Created Successfully")
 
-        .setDescription(`User **${username}** has been created on Pterodactyl.`)
+        .setDescription(`User **${username}** has been created on UltraNode.`)
 
         .addFields(
 
@@ -188,7 +188,7 @@ export default {
 
         )
 
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
 
         .setTimestamp();
 
@@ -204,7 +204,7 @@ export default {
 
           .setTitle("🔐 Your Hosting Panel Account")
 
-          .setDescription("Your account has been created on **Vortex Host Panel** 🎉\nHere are your login details:")
+          .setDescription("Your account has been created on **UltraNode Host Panel** 🎉\nHere are your login details:")
 
           .addFields(
 
@@ -220,7 +220,7 @@ export default {
 
           )
 
-          .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+          .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
 
           .setTimestamp();
 
@@ -238,7 +238,7 @@ export default {
 
         .setDescription(`Error: ${err.message}`)
 
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
 
         .setTimestamp();
 
