@@ -1,8 +1,8 @@
 // ======================================================
 
-// ❌ VORTEX DEPLOY - /deleteuser Command
+// ❌ UltraNode DEPLOY - /deleteuser Command
 
-// 👑 Vortex Deploy
+// 👑 UltraNode Deploy
 
 // ======================================================
 
@@ -174,7 +174,7 @@ export default {
 
         )
 
-        .setFooter({ text: "Vortex Deploy 👑" })
+        .setFooter({ text: "UltraNode Deploy 👑" })
 
         .setTimestamp();
 
@@ -190,7 +190,7 @@ export default {
 
         .setDescription(`Error: ${err.message}`)
 
-        .setFooter({ text: "Vortex Deploy 👑" })
+        .setFooter({ text: "UltraNode Deploy 👑" })
 
         .setTimestamp();
 
