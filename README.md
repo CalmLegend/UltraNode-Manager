@@ -1,6 +1,6 @@
-> ⚠️ Unauthorized copying, modification, or reuse of this project without credit to the original author (Abinash | Okami.buzz) is strictly prohibited under the MIT License.
+> ⚠️ Unauthorized copying, modification, or reuse of this project without credit to the original author (UltraNode | CalmLegendMC.buzz) is strictly prohibited under the MIT License.
 # UltraNode-Manager
-CYRO PTERO MANAGER — CREDIT LICENSE
+UltraNode Manager— CREDIT LICENSE
 
 Developed by UltraNode (CalmLegendMC.buzz)
 © 2026 UltraNode Host. All Rights Reserved.
