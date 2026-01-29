@@ -1,8 +1,8 @@
 // ======================================================
 
-// 👥 VORTEX DEPLOY - /userslist (Correct Server Count)
+// 👥 UltraNode DEPLOY - /userslist (Correct Server Count)
 
-// 👑 Footer: Vortex Deploy 👑
+// 👑 Footer: UltraNode Deploy 👑
 
 // ======================================================
 
@@ -120,7 +120,7 @@ export default {
 
         .setDescription(list || "No users found.")
 
-        .setFooter({ text: "Vortex Deploy 👑" })
+        .setFooter({ text: "UltraNode Deploy 👑" })
 
         .setTimestamp();
 
@@ -136,7 +136,7 @@ export default {
 
         .setDescription(`\`\`\`${err.message}\`\`\``)
 
-        .setFooter({ text: "Vortex Deploy 👑" });
+        .setFooter({ text: "UltraNode Deploy 👑" });
 
       await interaction.editReply({ embeds: [embed] });
 
