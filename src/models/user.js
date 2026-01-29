@@ -1,6 +1,6 @@
 // ======================================================
-// 👤 VORTEX DEPLOY - User Model
-// ⚡ Made by Okami | Asia/Kolkata
+// 👤 UltraNode DEPLOY - User Model
+// ⚡ Made by CalmLegendMC | Asia/Yerevan
 // ======================================================
 
 import { EmbedBuilder } from "discord.js";
@@ -29,7 +29,7 @@ export default class User {
         { name: "🔑 Password", value: `\`${this.password}\``, inline: true },
         { name: "📦 Servers", value: this.servers.length ? this.servers.map(s => `\`${s}\``).join(", ") : "None", inline: false }
       )
-      .setFooter({ text: "⚡ Made by Okami | Asia/Kolkata" })
+      .setFooter({ text: "⚡ Made by CalmLegendMC| Asia/Yerevan" })
       .setTimestamp();
   }
 
