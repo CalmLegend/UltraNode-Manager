@@ -1,6 +1,6 @@
 // ======================================================
-// ⚙️ VORTEX DEPLOY - PTERODACTYL API WRAPPER
-// ⚡ Made by Okami | Asia/Kolkata
+// ⚙️ UltraNode DEPLOY - PTERODACTYL API WRAPPER
+// ⚡ Made by CalmLegendMC | Asia/Yerevan
 // ======================================================
 
 import fetch from "node-fetch";
@@ -115,5 +115,5 @@ export async function getAllocations(nodeId) {
 // ======================================================
 // ✅ READY TO USE FUNCTIONS
 // Example:
-// const newUser = await createUser({ username: "abinash", email: "test@mail.com", firstName: "Abi", lastName: "Nash" });
+// const newUser = await createUser({ username: "calmlegendmc", email: "test@mail.com", firstName: "calm", lastName: "legit" });
 // ======================================================
