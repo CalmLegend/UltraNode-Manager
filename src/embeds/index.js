@@ -1,14 +1,14 @@
 // ======================================================
-// 🎨 VORTEX DEPLOY - EMBED SYSTEM
-// ⚡ Made by Okami | Asia/Kolkata
+// 🎨 UltraNode DEPLOY - EMBED SYSTEM
+// ⚡ Made by CalmLegendMC| Asia/Yerevan
 // ======================================================
 
 import { EmbedBuilder } from "discord.js";
 import moment from "moment-timezone";
 
 // 📦 Configurable Constants
-const FOOTER = process.env.FOOTER_TEXT || "⚡ Made by Okami | Vortex Deploy 👑";
-const TIMEZONE = process.env.TIMEZONE || "Asia/Kolkata";
+const FOOTER = process.env.FOOTER_TEXT || "⚡ Made by CalmLegendMC | UltraNode Deploy 👑";
+const TIMEZONE = process.env.TIMEZONE || "Asia/Yerevan";
 
 // 🕒 Utility Function: Get Local Time
 function localTime() {
