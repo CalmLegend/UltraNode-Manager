@@ -1,6 +1,6 @@
 // ======================================================
-// 🖥️ VORTEX DEPLOY - Server Record Model
-// ⚡ Made by Okami | Asia/Kolkata
+// 🖥️ UltraNode DEPLOY - Server Record Model
+// ⚡ Made by CalmLegend | Asia/Yerevan
 // ======================================================
 
 import { EmbedBuilder } from "discord.js";
@@ -37,7 +37,7 @@ export default class ServerRecord {
         { name: "🕒 Created At", value: `<t:${Math.floor(this.createdAt.getTime()/1000)}:f>`, inline: true },
         { name: "🕒 Updated At", value: `<t:${Math.floor(this.updatedAt.getTime()/1000)}:f>`, inline: true }
       )
-      .setFooter({ text: "⚡ Made by Okami | Asia/Kolkata" })
+      .setFooter({ text: "⚡ Made by CalmLegendMC | Asia/Yerevan" })
       .setTimestamp();
   }
 
