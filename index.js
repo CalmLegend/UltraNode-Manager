@@ -1,8 +1,8 @@
 // ======================================================
 
-// 🚀 VORTEX DEPLOY - Discord Bot
+// 🚀 UltraNode DEPLOY - Discord Bot
 
-// ⚡ Made by Okami | Timezone: Asia/Kolkata
+// ⚡ Made by CalmLegendMC | Timezone: Asia/Yerevan
 
 // ======================================================
 
@@ -190,11 +190,11 @@ if (process.env.MONGO_URI) {
 
 client.once("ready", async () => {
 
-  const time = moment().tz(process.env.TIMEZONE || "Asia/Kolkata").format("HH:mm:ss");
+  const time = moment().tz(process.env.TIMEZONE || "Asia/Yerevan").format("HH:mm:ss");
 
   log.success(`🟢 ${client.user.tag} is Online | Local Time: ${time}`);
 
-  client.user.setActivity("Vortex Deploy ⚡", { type: 3 });
+  client.user.setActivity("UltraNode Deploy ⚡", { type: 3 });
 
   // Auto deploy commands safely on ready
 
@@ -230,7 +230,7 @@ client.on("guildCreate", async (guild) => {
 
       .setColor("Red")
 
-      .setFooter({ text: "Vortex Deploy 👑" })
+      .setFooter({ text: "UltraNode Deploy 👑" })
 
       .setTimestamp();
 
@@ -272,7 +272,7 @@ client.on("interactionCreate", async (interaction) => {
 
       .setDescription("You are not authorized to use this bot.\nOnly the **bot owner(s)** can use commands.")
 
-      .setFooter({ text: "Vortex Deploy 👑" })
+      .setFooter({ text: "UltraNode Deploy 👑" })
 
       .setTimestamp();
 
