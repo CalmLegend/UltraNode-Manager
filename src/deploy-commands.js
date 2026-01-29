@@ -1,8 +1,8 @@
 // ======================================================
 
-// ⚡ VORTEX DEPLOY - Deploy Commands Script
+// ⚡ UltraNode DEPLOY - Deploy Commands Script
 
-// Made by Okami | Asia/Kolkata
+// Made by CalmLegendMC | Asia/Yerevan
 
 // ======================================================
 
