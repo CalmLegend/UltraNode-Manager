@@ -1,8 +1,8 @@
 // ======================================================
 
-// ⚡ VORTEX DEPLOY - /changepass Command
+// ⚡ UltraNode DEPLOY - /changepass Command
 
-// Made by Okami | Vortex Deploy 👑
+// Made by CalmLegendMC | UltraNode Deploy 👑
 
 // ======================================================
 
@@ -156,7 +156,7 @@ export default {
 
       // 3️⃣ Success embed
 
-      const time = moment().tz(process.env.TIMEZONE || "Asia/Kolkata").format("HH:mm:ss");
+      const time = moment().tz(process.env.TIMEZONE || "Asia/Yerevan").format("HH:mm:ss");
 
       const embed = new EmbedBuilder()
 
@@ -174,7 +174,7 @@ export default {
 
         )
 
-        .setFooter({ text: `Made By Okami | Vortex Deploy 👑 | ${time}` });
+        .setFooter({ text: `Made By CalmLegendMC | UltraNode Deploy 👑 | ${time}` });
 
       await interaction.editReply({ embeds: [embed] });
 
@@ -202,7 +202,7 @@ export default {
 
           )
 
-          .setFooter({ text: `Made By Okami | Vortex Deploy 👑 | ${time}` });
+          .setFooter({ text: `Made By CalmLegendMC | UltraNode Deploy 👑 | ${time}` });
 
         await discordUser.send({ embeds: [dmEmbed] }).catch(() => {});
 
@@ -210,7 +210,7 @@ export default {
 
     } catch (err) {
 
-      const time = moment().tz(process.env.TIMEZONE || "Asia/Kolkata").format("HH:mm:ss");
+      const time = moment().tz(process.env.TIMEZONE || "Asia/Yerevan").format("HH:mm:ss");
 
       const embed = new EmbedBuilder()
 
@@ -220,7 +220,7 @@ export default {
 
         .setDescription(`Error: ${err.message}`)
 
-        .setFooter({ text: `Made By Okami | Vortex Deploy 👑 | ${time}` });
+        .setFooter({ text: `Made By CalmLegendMC | UltraNode Deploy 👑 | ${time}` });
 
       await interaction.editReply({ embeds: [embed] });
 
