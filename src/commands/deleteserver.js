@@ -1,6 +1,6 @@
 // ======================================================
-// ❌ VORTEX DEPLOY - /deleteserver Command
-// ⚡ Made by Okami | Asia/Kolkata
+// ❌ UltraNode DEPLOY - /deleteserver Command
+// ⚡ Made by CalmLegendMC | Asia/Yerevan
 // ======================================================
 
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
@@ -59,7 +59,7 @@ export default {
             { name: "📦 Egg/Type", value: `\`${serverEgg}\``, inline: true },
             { name: "⏱️ Status before deletion", value: `\`${serverStatus}\``, inline: true }
           )
-          .setFooter({ text: "⚡ Made by Okami | Asia/Kolkata" })
+          .setFooter({ text: "⚡ Made by CalmLegendMC| Asia/Yerevan" })
           .setTimestamp();
 
         await interaction.editReply({ embeds: [embed] });
@@ -73,7 +73,7 @@ export default {
         .setColor("Red")
         .setTitle("❌ Failed to Delete Server")
         .setDescription(`Error: ${err.message}`)
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
         .setTimestamp();
 
       await interaction.editReply({ embeds: [embed] });
