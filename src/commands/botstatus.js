@@ -1,6 +1,6 @@
 // ======================================================
-// 🤖 VORTEX DEPLOY - /botstatus (v2)
-// ⚡ Made by Okami | Asia/Kolkata
+// 🤖 UltraNode DEPLOY - /botstatus (v2)
+// ⚡ Made by CalmLegendMC| Asia/Yerevan
 // ======================================================
 
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
@@ -10,7 +10,7 @@ import moment from "moment-timezone";
 export default {
   data: new SlashCommandBuilder()
     .setName("botstatus")
-    .setDescription("📊 View the live status of Vortex Deploy bot."),
+    .setDescription("📊 View the live status of UltraNode Deploy bot."),
 
   async execute(interaction) {
     await interaction.deferReply();
@@ -24,7 +24,7 @@ export default {
 
       const embed = new EmbedBuilder()
         .setColor("Aqua")
-        .setAuthor({ name: "⚙️ VORTEX DEPLOY - Bot Status" })
+        .setAuthor({ name: "⚙️ UltraNode DEPLOY - Bot Status" })
         .setDescription("💫 Live monitoring of the bot every **10 seconds** 🔄")
         .addFields(
           { name: "📡 Ping", value: `\`${botPing}ms\``, inline: true },
@@ -33,7 +33,7 @@ export default {
           { name: "📦 Commands Loaded", value: `${interaction.client.commands.size}`, inline: true },
           { name: "🏷️ Server", value: `${interaction.guild.name}`, inline: true }
         )
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
         .setTimestamp();
 
       if (!interaction.replied) {
