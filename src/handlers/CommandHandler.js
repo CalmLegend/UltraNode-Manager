@@ -1,6 +1,6 @@
 // ======================================================
-// ⚔️ VORTEX DEPLOY - Ultimate Slash Command Handler
-// 🌐 Made by Okami | Asia/Kolkata
+// ⚔️ UltraNode DEPLOY - Ultimate Slash Command Handler
+// 🌐 Made by CalmLegendMC | Asia/Yerevan
 // ======================================================
 
 import { REST, Routes, Collection } from "discord.js";
