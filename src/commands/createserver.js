@@ -1,8 +1,8 @@
 // ======================================================
 
-// 🛠️ CYRO DEPLOY – /createserver (Fully Fixed)
+// 🛠️ UltraNode DEPLOY – /createserver (Fully Fixed)
 
-// 👑 Footer: Cyro Deploy 👑
+// 👑 Footer: UltraNode Deploy 👑
 
 // ======================================================
 
@@ -20,7 +20,7 @@ export default {
 
     .setName("createserver")
 
-    .setDescription("🛠️ Create a new server on Pterodactyl")
+    .setDescription("🛠️ Create a new server on UltraNode")
 
     .addStringOption(opt =>
 
@@ -274,7 +274,7 @@ export default {
 
         )
 
-        .setFooter({ text: "Cyro Deploy 👑" });
+        .setFooter({ text: "UltraNode Deploy 👑" });
 
       return interaction.editReply({ embeds: [embed] });
 
