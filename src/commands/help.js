@@ -1,8 +1,8 @@
 // ======================================================
 
-// 🆘 VORTEX DEPLOY - /help Command (WORLD-BEST)
+// 🆘 UltraNode DEPLOY - /help Command (WORLD-BEST)
 
-// ⚡ Made by Okami | Asia/Kolkata
+// ⚡ Made by CalmLegendMC | Asia/Yerevan
 
 // ======================================================
 
@@ -32,11 +32,11 @@ export default {
 
         .setColor("Blue")
 
-        .setTitle("🆘 VORTEX DEPLOY - Command Help")
+        .setTitle("🆘 UltraNode DEPLOY - Command Help")
 
         .setDescription("Here’s a list of all available commands organized by category 📂\nSelect a category from the menu below for details.")
 
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
 
         .setTimestamp();
 
@@ -202,7 +202,7 @@ export default {
 
         if(categoryEmbed) {
 
-          categoryEmbed.setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" }).setTimestamp();
+          categoryEmbed.setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" }).setTimestamp();
 
           await i.update({ embeds: [categoryEmbed], components: [row] });
 
@@ -240,7 +240,7 @@ export default {
 
         .setDescription(`Error: ${err.message}`)
 
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC | UltraNode Deploy 👑" })
 
         .setTimestamp();
 
