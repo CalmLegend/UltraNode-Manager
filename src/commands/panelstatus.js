@@ -1,6 +1,6 @@
 // ======================================================
-// 🖥️ VORTEX DEPLOY - /panelstatus (v2)
-// ⚡ Made by Okami | Asia/Kolkata
+// 🖥️ UltraNode DEPLOY - /panelstatus (v2)
+// ⚡ Made by CalmLegendMC | Asia/Yerevan
 // ======================================================
 
 import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
@@ -12,7 +12,7 @@ dotenv.config();
 export default {
   data: new SlashCommandBuilder()
     .setName("panelstatus")
-    .setDescription("🖥️ Shows live status of the Pterodactyl panel and nodes"),
+    .setDescription("🖥️ Shows live status of the UltraNode panel and nodes"),
 
   async execute(interaction) {
     await interaction.deferReply();
@@ -34,7 +34,7 @@ export default {
 
       const embed = new EmbedBuilder()
         .setColor(panelData.status === "🟢 Online" ? "Green" : "Red")
-        .setAuthor({ name: "🖥️ VORTEX DEPLOY - Panel Status" })
+        .setAuthor({ name: "🖥️ UltraNode DEPLOY - Panel Status" })
         .setDescription("💫 Real-time panel & node status (updates every **10s**) 🔄")
         .addFields(
           { name: "🌐 Panel Status", value: panelData.status, inline: true },
@@ -43,7 +43,7 @@ export default {
           { name: "🧠 Nodes", value: `\`${panelData.nodes.length}\` active`, inline: true },
           { name: "📋 Nodes List", value: nodesList.slice(0, 1024) }
         )
-        .setFooter({ text: "⚡ Made by Okami | Vortex Deploy 👑" })
+        .setFooter({ text: "⚡ Made by CalmLegendMC| UltraNode Deploy 👑" })
         .setTimestamp();
 
       if (!interaction.replied) {
